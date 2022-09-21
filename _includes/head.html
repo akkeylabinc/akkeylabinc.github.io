@@ -1,0 +1,29 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if site.akkeylab.author %}{{ site.akkeylab.author }} &#8226; {% endif %}{{ site.akkeylab.tagline | strip_html }}</title>
+
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}{{ site.akkeylab.logo }}"/>
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" />
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+
+  <meta name="author" content="{{ site.akkeylab.author }}">
+  <meta name="description" content="{{ site.akkeylab.tagline }}"/>
+
+  <!-- Open Graph tags -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ site.akkeylab.tagline }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.akkeylab.logo }}"/>
+  <meta property="og:description" content="{{ site.akkeylab.description }}"/>
+  <meta property="og:site_name" content="{{ site.akkeylab.tagline }}">
+
+<meta name="theme-color" content="#286AA3">
+
+</head>

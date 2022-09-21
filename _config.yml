@@ -1,0 +1,25 @@
+# general configuration
+url: https://akkeylab.ltd
+baseurl: ''
+
+# akkeylab configuration
+akkeylab:
+  # an avatar or logo (optional)
+  logo: "/images/akkeylab.png"
+  # author will appear under the avatar (optional)
+  author: "AkkeyLab® Inc."
+  # tagline will appear under the title (optional)
+  tagline: "We offer <font color='#286AA3'>perfectly</font> personalized programming education"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+
+# exclude
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "README.md"]
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: pretty
