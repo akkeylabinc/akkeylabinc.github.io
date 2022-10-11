@@ -8,8 +8,10 @@ akkeylab:
   logo: "/images/akkeylab.png"
   # author will appear under the avatar (optional)
   author: "AkkeyLab® Inc."
+  author_jp: "AkkeyLab株式会社"
   # tagline will appear under the title (optional)
   tagline: "We offer <font color='#286AA3'>perfectly</font> personalized programming education"
+  tagline_normal: "We offer perfectly personalized programming education"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
