@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
-
-gem "webrick", "~> 1.7"
+gem 'eventmachine', '~> 1.2.7'
+gem 'webrick', '~> 1.7'
